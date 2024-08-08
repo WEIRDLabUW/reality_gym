@@ -7,10 +7,10 @@ First, download and unzip the assets created from the internet images [link](htt
 ```bash
 reality_gym/
 ├── assets/
-│   ├── all_meshes/ (-> this contains all predefined geometries for doors, drawer, handles etc.)
-│   └── cabinets/ (-> this contains details for each asset)
+│   ├── all_meshes/ (this contains all predefined geometries for doors, drawer, handles etc.)
+│   └── cabinets/ (this contains details for each asset)
 │       ├── images/ 
-│       ├── labels/ (-> this contains GT labels for each asset, including bbox, class, positions, scales etc)
+│       ├── labels/ (this contains GT labels for each asset, including bbox, class, positions, scales etc)
 │       ├── textures/
 │       ├── urdfs/
 │   └── dishwashers
@@ -36,3 +36,4 @@ To visualize objects GT assets, run:
 ```bash
 gt_demo.py --scene objects --texture
 ```
+
