@@ -3,8 +3,7 @@ Reality Gym for URDFormer. If you want to try converting images into URDFs, chec
 
 This repo contains (a) URDF Assets from internet images (b) Mesh and texture randomization.
 
-
-The structure of the repo is the following:
+First, download and unzip the assets created from the internet images [link](https://drive.google.com/file/d/1LQkSmvhwAIGVCN4eHNJAM7BR6EyTpFma/view?usp=sharing). After this step, you repo should look like:
 ```bash
 reality_gym/
 ├── assets/
